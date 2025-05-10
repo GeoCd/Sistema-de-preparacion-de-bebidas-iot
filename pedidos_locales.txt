@@ -1,0 +1,6 @@
+{"items": [{"nombre": "Limonada", "precio": 150, "cantidad": 1}], "total": 150, "Hora": "10/05/2025 14:56:56"}
+{"items": [{"nombre": "Limonada", "precio": 150, "cantidad": 1}], "total": 150, "Hora": "10/05/2025 14:57:15"}
+{"items": [{"nombre": "Naranjada", "precio": 150, "cantidad": 1}], "total": 150, "Hora": "10/05/2025 14:58:19"}
+{"items": [{"nombre": "Limonada", "precio": 150, "cantidad": 1}], "total": 150, "Hora": "10/05/2025 14:58:39"}
+{"items": [{"nombre": "Mojito", "precio": 30, "cantidad": 1}], "total": 30, "Hora": "10/05/2025 14:59:13"}
+{"items": [{"nombre": "Mojito", "precio": 30, "cantidad": 1}], "total": 30, "Hora": "10/05/2025 14:59:27"}

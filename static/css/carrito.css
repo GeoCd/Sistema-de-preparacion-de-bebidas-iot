@@ -1,0 +1,258 @@
+/* Boton de carrito */
+.cart__button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-left: auto;
+    margin-right: 1rem; 
+    font-size: 2rem; /* Aumentar el tamaño del icono */
+}
+
+.cart__button img,
+.cart__button svg {
+    width: 40px; /* Aumentar el tamaño del icono */
+    height: 40px; /* Aumentar el tamaño del icono */
+    transition: transform 0.3s ease;
+}
+
+.cart__button:hover img,
+.cart__button:hover svg {
+    transform: scale(1.1);
+}
+
+/* Sidebar del carrito */
+.cart__sidebar {
+    position: absolute;
+    top: 80px;
+    right: -300px;
+    width: 300px;
+    height: calc(100vh - 80px);
+    background-color: #f8f9fa;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem; /* Separación del borde */
+        margin-top: 1rem; /* o la cantidad que quieras */
+
+}
+
+.cart__sidebar.open {
+    right: 0; /* Desliza hacia la derecha */
+}
+
+.close-cart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--negro);
+    cursor: pointer;
+}
+
+.cart__items {
+    flex: 1;
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+.cart__footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: var(--secundario);
+    color: var(--blanco);
+}
+
+/* Estilos del contenido del carrito */
+.cart__footer {
+    padding: 1rem;
+    background-color: var(--secundario);
+    color: var(--blanco);
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+}
+
+.cart__header h2 {
+    margin: 0;
+}
+
+.cart__items {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+/* Estilos del contador del carrito */
+#cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #ff6f61; /* Color llamativo */
+    color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#cart-sidebar {
+    width: 300px; /* Tamaño reducido */
+    background: #f8f9fa; /* Color de fondo */
+    border-left: 2px solid #ccc;
+    padding: 15px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+#cart-count:hover {
+    transform: scale(1.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Main */
+.main {
+    margin: 3rem auto;
+    max-width: 1200px; /* Tamaño máximo del contenedor */
+    padding: 3rem 0; /* Consolidar padding aquí */
+}
+
+.main__title {
+    font-size: 2.5rem; /* Ajustar el tamaño aquí */
+    text-align: center;
+    margin-bottom: 3rem; /* Consolidar margen aquí */
+    font-weight: bold;
+    color: var(--primario);
+}
+
+/* Contenedor del carrito deslizante */
+.cart__sidebar {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: #f8f9fa;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Cuando el carrito está visible */
+.cart__sidebar.open {
+    right: 0;
+}
+
+/* Estilos del contenido del carrito */
+.cart__header {
+    padding: 20px;
+    background-color: #dae8f8e4; /* Color de fondo del encabezado y pie */
+    color: #fff;
+    text-align: center;
+}
+.cart__footer {
+    padding: 20px;
+    background-color: #007cf09f; /* Color de fondo del encabezado y pie */
+    color: #fff;
+    text-align: center;
+}
+.cart__header h2 {
+    margin: 0;
+}
+
+.cart__items {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.close-cart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cart__button {
+    background: none;
+    border: none;
+    color: #007cf09f;
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+}
+
+.cart__button .fa-shopping-cart {
+    font-size: 1.5rem;
+}
+
+.cart__footer p {
+    margin: 0;
+
+    .card-title {
+        font-size: 1.8rem; /* Ajustar tamaño de título en pantallas pequeñas */
+    }
+
+    .card-text {
+        font-size: 1.3rem; /* Ajustar tamaño de texto en pantallas pequeñas */
+    }
+}
+.cart__footer strong {
+    font-size: 2rem;
+}
+
+
+/* Estilos de los productos */
+/* Estilos para el botón de aumentar cantidad */
+.cart__controls .btn-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.cart__controls .btn-icon:hover {
+    background-color: rgba(0, 123, 255, 0.1); /* Color de fondo al pasar el ratón */
+    border-radius: 5px; /* Bordes redondeados */
+}
+/*Estilos para el botón*/
+#finalize-order {
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    background-color: var(--primario); /* Color de fondo */
+    color: var(--blanco); /* Color del texto */
+    font-size: 1.6rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#finalize-order:hover {
+    background-color: var(--primario); /* Color de fondo al pasar el ratón */
+    transform: scale(1.05); /* Efecto de aumento al pasar el ratón */
+}
+
+#finalize-order:active {
+    transform: scale(0.95); /* Efecto de reducción al hacer clic */
+}
+
+/* Responsividad */

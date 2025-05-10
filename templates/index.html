@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar Bot</title>
+
+    <!-- Carga de Hojas de Estilo -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header class="header">
+        <div class="menu__container" style="display: flex; align-items: center; justify-content: space-between; padding: 0 2rem;">
+            <!-- Botón Menu -->
+            <button id="menu-toggle" class="navbar__toggler">☰</button>
+    
+            <!-- Botón del carrito -->
+            <button id="cart-toggle" class="cart__button" aria-label="Abrir carrito">
+                <img src="{{ url_for('static', filename='media/cart-icon.svg') }}" alt="Carrito" width="50" height="50">
+                <span id="cart-count" class="cart__count">0</span>
+            </button>
+        </div>
+    </header>
+    
+    <!-- Panel lateral del Menú -->
+    <div id="menu-sidebar" class="menu__sidebar">
+        <div class="menu__header">
+            <h2>Menú</h2>
+            <button id="close-menu" class="close-menu" aria-label="Cerrar menú">
+                <img src="{{ url_for('static', filename='media/close.svg') }}" alt="Cerrar" width="24" height="24">
+            </button>
+        </div>
+    
+        <ul class="menu__nav">
+            <li class="menu__item"><a href="{{ url_for('index') }}" class="menu__link">Menú</a></li>
+            <li class="menu__item"><a href="{{ url_for('info') }}" class="menu__link">Información</a></li>
+        </ul>
+    </div>
+    
+    <!-- Panel lateral del Carrito -->
+    <div id="cart-sidebar" class="cart__sidebar">
+        <div class="cart__header">
+            <h2>Productos</h2>
+            <button id="close-cart" class="close-cart" aria-label="Cerrar carrito">
+                <img src="{{ url_for('static', filename='media/close.svg') }}" alt="Cerrar" width="24" height="24">
+            </button>
+        </div>
+    
+        <div id="cart-items" class="cart__items">
+            <p>Tu carrito está vacío.</p>
+        </div>
+    
+        <div class="cart__footer">
+            <p><strong>Total: $<span id="cart-total">0</span></strong></p>
+            <button id="finalize-order" class="btn btn-success">Finalizar Pedido</button>
+        </div>
+    </div>
+    
+
+  <!-- Menú -->
+<main class="main container">
+    <h2 class="main__title">Menú de Bebidas</h2>
+    <div class="main__menu" id="menu-bebidas"></div>
+</main>
+</body>
+<!-- footer-->
+<footer class="footer bg-dark text-white text-center py-3">
+        <div>Todos los derechos reservados. &copy; 2025 UPIITA-IPN. Equipo CPR</div>
+</footer>
+
+<!-- Scripts -->
+<script src="{{ url_for('static', filename='js/menu.js') }}"></script>
+<script src="{{ url_for('static', filename='js/carrito.js') }}"></script>
+<script src="{{ url_for('static', filename='js/orders.js') }}"></script>
+<script src="{{ url_for('static', filename='js/info_bebidas.js') }}"></script>
+
+
+</body>
+</html>

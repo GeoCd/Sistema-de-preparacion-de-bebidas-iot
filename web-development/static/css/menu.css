@@ -1,0 +1,323 @@
+:root {
+    /* Paleta de colores elegante */
+    --gold-primary: #B8860B;
+    --gold-secondary: #DAA520;
+    --dark-elegant: #1C1C1C;
+    --light-elegant: #F5F5F5;
+    --accent-dark: #2C1810;
+    --accent-light: #8B4513;
+    --text-dark: #2D2D2D;
+    --text-light: #757575;
+    --secundario: #007bff;
+    --negro: #000000;
+    --blanco: #ffffff;
+}
+
+/* Contenedor principal del menú */
+.main {
+    padding: 2rem 0;
+    background: linear-gradient(135deg, var(--light-elegant) 0%, #FFFFFF 100%);
+    min-height: auto;
+}
+
+.main__title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 4rem;
+    color: var(--dark-elegant);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.main__title::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--gold-primary), var(--gold-secondary));
+    border-radius: 2px;
+}
+
+/* Grid del menú combinado */
+.main__menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2.5rem;
+    padding: .5rem 3rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Tarjetas premium con estilos combinados */
+.main__menu-item {
+    aspect-ratio: 2/3;
+    perspective: 1000px;
+    animation: fadeInUp 0.6s ease forwards;
+    opacity: 0;
+}
+
+.main__menu-item {
+    opacity: 1 !important;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08), 0 1px 8px rgba(0,0,0,0.03);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.12), 0 8px 16px rgba(0,0,0,0.06);
+}
+
+/* Indicador de Alcohol */
+.card::before {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 50%;
+    font-size: 2rem;
+    z-index: 3;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    border: 2px solid rgba(255,255,255,0.8);
+}
+
+.card[data-alcoholic="true"]::before {
+    content: '🍸';
+    background: rgba(184, 134, 11, 0.9);
+    color: white;
+}
+
+.card[data-alcoholic="false"]::before {
+    content: '🥤';
+    background: rgba(76, 175, 80, 0.9);
+    color: white;
+}
+
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+    max-width: 600px;
+    max-height: 400px;
+    border-radius: 0.5rem;
+    margin: 0 auto;
+    display: block;
+}
+
+.card:hover .card-img {
+    transform: scale(1.05);
+}
+
+.card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    background: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.2) 100%);
+    pointer-events: none;
+}
+
+.card-body {
+    padding: 2rem;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(180deg, #ffffff 0%, var(--light-elegant) 100%);
+}
+
+.card-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 0 0 1.5rem 0;
+    color: var(--accent-dark);
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+
+.card-text {
+    font-size: 1.4rem;
+    color: var(--text-light);
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+/* Precio */
+.card-price {
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: var(--gold-primary);
+    margin: 1.5rem 0;
+    font-family: 'SoDoSans-SemiBold', sans-serif;
+}
+
+.card-price strong {
+    font-weight: 600;
+    color: var(--text-dark);
+    font-size: 1.6rem;
+}
+
+/* Botón combinado y estilizado */
+.btn.add-to-cart {
+    padding: 1.2rem 2.5rem;
+    border-radius: 16px;
+    background: linear-gradient(135deg, var(--gold-primary) 0%, var(--gold-secondary) 100%);
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 6px 14px rgba(184, 134, 11, 0.35);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn.add-to-cart::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.5s ease;
+}
+
+.btn.add-to-cart:hover::before {
+    left: 100%;
+}
+
+.btn.add-to-cart:hover {
+    background: linear-gradient(135deg, var(--gold-secondary) 0%, var(--gold-primary) 100%);
+    box-shadow: 0 8px 18px rgba(184, 134, 11, 0.45);
+    transform: translateY(-2px);
+}
+
+.btn.add-to-cart:active {
+    transform: scale(0.97);
+}
+
+.btn.add-to-cart:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(184, 134, 11, 0.4);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--negro);
+    color: var(--blanco);
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 1.4rem;
+}
+
+/* Animaciones */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Escalonado animación */
+@media (min-width: 769px) {
+    .main__menu-item:nth-child(3n+1) { animation-delay: 0.1s; }
+    .main__menu-item:nth-child(3n+2) { animation-delay: 0.2s; }
+    .main__menu-item:nth-child(3n+3) { animation-delay: 0.3s; }
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+    .main__menu {
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .main__menu {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 2rem;
+        padding: 0 2rem;
+    }
+
+    .main__title {
+        font-size: 2.8rem;
+        margin-bottom: 3rem;
+    }
+
+    .card-body {
+        padding: 1.8rem;
+    }
+
+    .main__menu-item {
+        aspect-ratio: 3/4;
+    }
+}
+
+@media (max-width: 480px) {
+    .main__menu {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 0 1.5rem;
+    }
+
+    .main__menu-item {
+        aspect-ratio: 2/3;
+    }
+
+    .main__title {
+        font-size: 2.4rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .card-title {
+        font-size: 2rem;
+    }
+
+    .card-text {
+        font-size: 1.3rem;
+    }
+
+    .btn.add-to-cart {
+        padding: 1rem 2rem;
+        font-size: 1.3rem;
+    }
+}

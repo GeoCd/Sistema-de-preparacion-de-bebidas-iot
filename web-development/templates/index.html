@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Beverage</title>
+
+    <!-- Carga de Hojas de Estilo -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/global-styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index-inline.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/sidebar.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/menu.css') }}">
+ 
+</head>
+<body>
+
+      <!-- ========================================
+       TOGGLES / ICONOS DE INTERACCIÓN SUPERIOR
+       ======================================== -->
+    <!-- Botón de menú lateral -->
+    <header class ="main-header">
+        <!-- Logo de la sidebar -->
+        <button id="menu-toggle" class="sidebar-toggle">
+            <img src="{{ url_for('static', filename='media/menu.svg') }}" alt="Toggle Menu" class="toggle-logo">
+        </button>
+        
+        <!-- Botón del carrito -->
+        <button id="cart-toggle" class="cart__button" aria-label="Abrir carrito">
+            <img src="{{ url_for('static', filename='media/cart-icon.svg') }}" alt="Carrito" width="24" height="24">
+                <span id="cart-count" class="cart__count">0</span>
+        </button>
+    </header>
+    
+      <!-- ===========================
+       SIDEBAR DEL MENÚ
+       =========================== -->
+    <div id="menu-sidebar" class="main-sidebar">
+        <div class="brand-container">
+            <img src="{{ url_for('static', filename='media/logo.svg') }}" alt="Bar Bot Logo" class="brand-logo">
+        </div>
+
+        <div class="sidebar-content">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="{{ url_for('index') }}" class="nav-link active">
+                        <img src="{{ url_for('static', filename='media/cart-icon.svg') }}" alt="Menú de Bebidas" class="nav-icon">
+                        Menú de Bebidas
+                    </a>
+                </li>
+                 <!--
+                <li class="nav-item">
+                    <a href="{{ url_for('info') }}" class="nav-link">
+                        <img src="{{ url_for('static', filename='menu.svg') }}" alt="Menú de Bebidas" class="nav-icon">
+                        Información
+                    </a>
+                </li> 
+                -->
+                <li class="nav-item">
+                    <a href="{{ url_for('dashboard') }}" class="nav-link">
+                        <img src="{{ url_for('static', filename='media/graph.svg') }}" alt="Menú de Bebidas" class="nav-icon">
+                        Dashboard
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Overlay para cerrar el sidebar en móviles -->
+    <div id="sidebar-overlay" class="sidebar-overlay"></div>
+    
+     <!-- ===========================
+       PANEL LATERAL DEL CARRITO
+       =========================== -->
+
+       <div id="cart-sidebar" class="cart__sidebar">
+        <div class="cart__header">
+            <h2>Productos</h2>
+        </div>
+    
+        <div id="cart-items" class="cart__items">
+            <p>Tu carrito está vacío.</p>
+        </div>
+
+        <div class="cart__footer">
+            <p><strong>Total: $<span id="cart-total">0</span></strong></p>
+            <button id="finalize-order" class="btn btn-success">Finalizar Pedido</button>
+        </div>
+    </div>
+    
+    <!-- ===========================
+       CONTENIDO PRINCIPAL
+       =========================== -->
+    <div class="page-content">
+
+    <!-- Banner -->
+    <section class="hero-banner">
+    <div class="hero-content">
+        <div class="hero-logo-container">
+        <img src="{{ url_for('static', filename='media/logonombre.svg') }}" alt="Bar Bot" class="hero-logo">
+        </div>
+        <div class="hero-text">
+        <h1 class="hero-title">Bienvenido a Bar Bot</h1>
+        <p class="hero-subtitle">Tu experiencia comienza aquí</p>
+        <div class="mesa-info">
+            <span class="mesa-label">Mesa asignada:</span>
+            <span class="mesa-number" id="mesa-number">--</span> <!-- Aquí irá dinámicamente el número -->
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Barra de Búsqueda y Filtros -->
+    <section class="search-section">
+    <div class="search-container">
+        <div class="search-bar">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" id="search-input" placeholder="Buscar bebidas..." class="search-input">
+            <button id="clear-search" class="clear-search" style="display: none;">
+                <img src="{{ url_for('static', filename='media/close.svg') }}" class="fas fa-times" width="24" height="24">
+            </button>
+        </div>
+        <!-- Filtros -->
+        <div class="filters-container">
+            <div class="filter-group">
+                <label class="filter-label">Tipo:</label>
+                <select id="alcohol-filter" class="filter-select">
+                    <option value="all">Todas</option>
+                    <option value="alcoholic">Con Alcohol</option>
+                    <option value="non-alcoholic">Sin Alcohol</option>
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <label class="filter-label">Precio:</label>
+                <select id="price-filter" class="filter-select">
+                    <option value="all">Todos</option>
+                    <option value="low">$0 - $100</option>
+                    <option value="medium">$100 - $150</option>
+                    <option value="high">$150+</option>
+                </select>
+            </div>
+            
+
+            <button id="reset-filters" class="reset-filters">
+                <i class="fas fa-undo"></i>
+                Limpiar Filtros
+            </button>
+        </div>
+    </div>
+    </section>
+    
+    <!-- MENÚ DE BEBIDAS -->
+    <main class="main container">
+        <h2 class="main__title">Nuestras Bebidas</h2>
+        <div class="results-info">
+            <span id="results-count">14 bebidas disponibles</span>
+        </div>
+    <div class="main__menu" id="menu-bebidas"></div>
+    
+    <!-- Mensaje cuando no hay resultados -->
+    <div id="no-results" class="no-results" style="display: none;">
+        <i class="fas fa-search"></i>
+        <h3>No se encontraron bebidas</h3>
+        <p>Intenta con otros términos de búsqueda o ajusta los filtros</p>
+    </div>
+</main>
+
+  
+  <!-- ===========================
+       FOOTER
+       =========================== -->
+  <footer class="footer bg-dark text-white text-center py-3">
+        <div>Todos los derechos reservados. &copy; 2025 UPIITA-IPN. Equipo CPR</div>
+</footer>
+
+    <!-- ===========================
+       SCRIPTS
+       =========================== -->
+    <script src="{{ url_for('static', filename='js/carrito.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/menu.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/orders.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/info_bebidas.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/search-filters-fixed.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/table.js') }}"></script>
+    <!-- notificationes -->     
+    <div id="notification-container" class="notification-container"></div>
+
+</body>
+</html>

@@ -1,0 +1,258 @@
+{"items": [{"nombre": "Limonada", "precio": 150, "cantidad": 1}], "total": 150, "Hora": "10/05/2025 14:56:56"}
+{"items": [{"nombre": "Limonada", "precio": 150, "cantidad": 1}], "total": 150, "Hora": "10/05/2025 14:57:15"}
+{"items": [{"nombre": "Naranjada", "precio": 150, "cantidad": 1}], "total": 150, "Hora": "10/05/2025 14:58:19"}
+{"items": [{"nombre": "Limonada", "precio": 150, "cantidad": 1}], "total": 150, "Hora": "10/05/2025 14:58:39"}
+{"items": [{"nombre": "Mojito", "precio": 30, "cantidad": 1}], "total": 30, "Hora": "10/05/2025 14:59:13"}
+{"items": [{"nombre": "Mojito", "precio": 30, "cantidad": 1}], "total": 30, "Hora": "10/05/2025 14:59:27"}
+{"items": [{"nombre": "Limonada", "precio": 150, "cantidad": 2}], "total": 300, "Hora": "10/05/2025 16:16:00"}
+{"items": [{"nombre": "Tequilasunrise", "precio": 42, "cantidad": 1}], "total": 42, "Hora": "10/05/2025 16:16:12"}
+{"items": [{"nombre": "Mojito", "precio": 30, "cantidad": 2}], "total": 60, "Hora": "13/05/2025 08:41:35"}
+{"items": [{"nombre": "Limonada", "precio": 150, "cantidad": 5}], "total": 750, "Hora": "13/05/2025 08:43:34"}
+{"items": [{"nombre": "Naranjada", "precio": 150, "cantidad": 1}], "total": 150, "Hora": "13/05/2025 08:43:38"}
+{"items": [{"nombre": "Naranjada", "precio": 150, "cantidad": 1}], "total": 150, "Hora": "19/05/2025 15:16:21"}
+{"items": [{"nombre": "Johncollins", "precio": 35, "cantidad": 4}], "total": 140, "Hora": "19/05/2025 15:16:53"}
+{"items": [{"nombre": "Limonada", "precio": 150, "cantidad": 3}], "total": 450, "Hora": "19/05/2025 15:22:50"}
+{"items": [{"nombre": "Naranjada", "precio": 150, "cantidad": 3}], "total": 450, "Hora": "19/05/2025 15:22:53"}
+{"items": [{"nombre": "Limonada", "precio": 150, "cantidad": 2}], "total": 300, "Hora": "19/05/2025 15:25:46"}
+{"items": [{"nombre": "Mojito", "precio": 30, "cantidad": 2}], "total": 60, "Hora": "19/05/2025 15:25:55"}
+{"items": [{"nombre": "Limonada", "precio": 150, "cantidad": 1}], "total": 150, "Hora": "19/05/2025 15:44:08"}
+{"items": [{"nombre": "Mojito", "precio": 30, "cantidad": 1}], "total": 30, "Hora": "19/05/2025 15:52:47"}
+{"items": [{"nombre": "Limonada", "precio": 150, "cantidad": 1}], "total": 150, "Hora": "19/05/2025 16:55:13"}
+{"items": [{"nombre": "Naranjada", "precio": 150, "cantidad": 1}], "total": 150, "Hora": "19/05/2025 17:14:51"}
+{"items": [{"nombre": "Naranjada", "precio": 150, "cantidad": 1}], "total": 150, "Hora": "19/05/2025 17:23:29"}
+{"items": [{"nombre": "Alamosplash", "precio": 30, "cantidad": 2}, {"nombre": "Changuirongo", "precio": 34, "cantidad": 2}, {"nombre": "Margarita", "precio": 40, "cantidad": 1}], "total": 168, "Hora": "19/05/2025 17:23:38"}
+{"items": [{"nombre": "Naranjada", "precio": 150, "cantidad": 3}], "total": 450, "Hora": "19/05/2025 17:54:14"}
+{"items": [{"nombre": "Limonada", "precio": 150, "cantidad": 1}], "total": 150, "Hora": "19/05/2025 21:37:25"}
+{"items": [{"nombre": "Naranjada", "precio": 150, "cantidad": 3}], "total": 450, "Hora": "19/05/2025 21:50:39"}
+{"items": [{"nombre": "Mojito", "precio": 30, "cantidad": 1}], "total": 30, "Hora": "19/05/2025 21:50:45"}
+{"items": [{"nombre": "Limonada", "precio": 150, "cantidad": 1}], "total": 150, "Hora": "19/05/2025 21:50:56"}
+{"items": [{"nombre": "Johncollins", "precio": 35, "cantidad": 2}], "total": 70, "Hora": "19/05/2025 22:08:35"}
+{"items": [{"nombre": "Naranjada", "precio": 150, "cantidad": 2}], "total": 300, "Hora": "19/05/2025 22:08:36"}
+{"items": [{"nombre": "Limonada", "precio": 150, "cantidad": 2}], "total": 300, "Hora": "19/05/2025 22:08:50"}
+{"items": [{"nombre": "Naranjada", "precio": 150, "cantidad": 3}], "total": 450, "Hora": "19/05/2025 22:08:50"}
+{"items": [{"nombre": "Naranjada", "precio": 150, "cantidad": 3}], "total": 450, "Hora": "19/05/2025 22:36:07"}
+{"items": [{"nombre": "Mojito", "precio": 30, "cantidad": 4}], "total": 120, "Hora": "19/05/2025 22:36:22"}
+{"items": [{"nombre": "Naranjada", "precio": 150, "cantidad": 1}], "total": 150, "Hora": "19/05/2025 22:36:28"}
+{"items": [{"nombre": "Mojito", "precio": 30, "cantidad": 2}], "total": 60, "Hora": "19/05/2025 22:36:39"}
+{"items": [{"nombre": "Naranjada", "precio": 150, "cantidad": 2}], "total": 300, "Hora": "19/05/2025 22:36:39"}
+{"items": [{"nombre": "Naranjada", "precio": 150, "cantidad": 2}], "total": 300, "Hora": "19/05/2025 22:36:45"}
+{"items": [{"nombre": "Naranjada", "precio": 150, "cantidad": 2}], "total": 300, "Hora": "19/05/2025 22:40:43"}
+{"items": [{"nombre": "Limonada", "precio": 150, "cantidad": 1}], "total": 150, "Hora": "20/05/2025 10:29:52"}
+{"items": [{"nombre": "Limonada", "precio": 150, "cantidad": 2}], "total": 300, "Hora": "20/05/2025 10:49:29"}
+{"items": [{"nombre": "Mojito", "precio": 30, "cantidad": 1}, {"nombre": "Johncollins", "precio": 35, "cantidad": 1}], "total": 65, "Hora": "04/06/2025 12:03:47"}
+{"items": [{"nombre": "Limonada", "precio": 150, "cantidad": 1}], "total": 150, "Hora": "04/06/2025 12:07:33"}
+{"items": [{"nombre": "Limonada", "precio": 150, "cantidad": 3}], "total": 450, "Hora": "04/06/2025 12:37:05"}
+{"items": [{"nombre": "Naranjada", "precio": 150, "cantidad": 2}], "total": 300, "Hora": "04/06/2025 12:38:50"}
+{"items": [{"nombre": "Naranjada", "precio": 150, "cantidad": 3}], "total": 450, "Hora": "04/06/2025 12:41:01"}
+{"items": [{"nombre": "Mojito", "precio": 30, "cantidad": 3}, {"nombre": "Johncollins", "precio": 35, "cantidad": 3}, {"nombre": "Shadygrove", "precio": 30, "cantidad": 3}, {"nombre": "Bulldog", "precio": 32, "cantidad": 3}], "total": 381, "Hora": "04/06/2025 12:41:14"}
+{"items": [{"nombre": "Naranjada", "precio": 150, "cantidad": 3}, {"nombre": "Mojito", "precio": 30, "cantidad": 4}, {"nombre": "Johncollins", "precio": 35, "cantidad": 3}, {"nombre": "Shadygrove", "precio": 30, "cantidad": 3}, {"nombre": "Bostoncooler", "precio": 30, "cantidad": 3}], "total": 855, "Hora": "04/06/2025 12:41:34"}
+{"items": [{"nombre": "Naranjada", "precio": 150, "cantidad": 1}], "total": 150, "Hora": "04/06/2025 14:50:59"}
+{"items": [{"nombre": "Naranjada", "precio": 150, "cantidad": 1}], "total": 150, "Hora": "04/06/2025 14:55:22"}
+{"items": [{"nombre": "Naranjada", "precio": 150, "cantidad": 1}], "total": 150, "Hora": "04/06/2025 14:56:52"}
+{"items": [{"nombre": "Naranjada", "precio": 150, "cantidad": 3}], "total": 450, "Hora": "04/06/2025 14:58:04"}
+{"items": [{"nombre": "Limonada", "precio": 150, "cantidad": 2}], "total": 300, "Hora": "04/06/2025 15:19:26"}
+{"items": [{"nombre": "Johncollins", "precio": 35, "cantidad": 4}, {"nombre": "Mojito", "precio": 30, "cantidad": 7}], "total": 350, "Hora": "04/06/2025 21:11:48"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 2}], "total": 140, "Hora": "04/06/2025 21:57:40"}
+{"items": [{"nombre": "Mojito", "precio": 130, "cantidad": 1}], "total": 130, "Hora": "04/06/2025 21:58:01"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "04/06/2025 21:58:11"}
+{"items": [{"nombre": "Suzietaylor", "precio": 135, "cantidad": 1}], "total": 135, "Hora": "04/06/2025 21:58:22"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "04/06/2025 22:05:08"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "04/06/2025 23:19:53"}
+{"items": [{"nombre": "Daiquiri", "precio": 38, "cantidad": 1}], "total": 38, "Hora": "05/06/2025 00:06:16"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "05/06/2025 00:14:33"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "05/06/2025 00:50:12"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "05/06/2025 00:51:05"}
+{"items": [{"nombre": "Daiquiri", "precio": 140, "cantidad": 1}], "total": 140, "Hora": "05/06/2025 00:51:14"}
+{"items": [{"nombre": "Mojito", "precio": 130, "cantidad": 1}, {"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 200, "Hora": "05/06/2025 14:15:04"}
+{"items": [{"nombre": "Shadygrove", "precio": 130, "cantidad": 2}], "total": 260, "Hora": "05/06/2025 14:15:27"}
+{"items": [{"nombre": "Mojito", "precio": 130, "cantidad": 1}], "total": 130, "Hora": "05/06/2025 14:43:39"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "05/06/2025 14:55:49"}
+{"items": [{"nombre": "Mojito", "precio": 130, "cantidad": 2}, {"nombre": "Limonada", "precio": 70, "cantidad": 1}, {"nombre": "Johncollins", "precio": 140, "cantidad": 2}], "total": 610, "Hora": "05/06/2025 15:09:55"}
+{"items": [{"nombre": "Changuirongo", "precio": 130, "cantidad": 1}], "total": 130, "Hora": "05/06/2025 15:10:07"}
+{"items": [{"nombre": "Johncollins", "precio": 140, "cantidad": 3}], "total": 420, "Hora": "05/06/2025 16:12:35"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 4}], "total": 280, "Hora": "05/06/2025 18:22:21"}
+{"items": [{"nombre": "Mojito", "precio": 130, "cantidad": 1}], "total": 130, "Hora": "05/06/2025 22:53:58"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 2}], "total": 140, "Hora": "06/06/2025 16:09:40"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "08/06/2025 23:21:55"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 2}], "total": 140, "Hora": "09/06/2025 00:56:22"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 2}], "total": 140, "Hora": "09/06/2025 01:06:03"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}, {"nombre": "Mojito", "precio": 130, "cantidad": 1}], "total": 200, "Hora": "09/06/2025 15:54:22"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 2}, {"nombre": "Limonada", "precio": 70, "cantidad": 3}, {"nombre": "Mojito", "precio": 130, "cantidad": 3}, {"nombre": "Johncollins", "precio": 155, "cantidad": 3}, {"nombre": "Shadygrove", "precio": 130, "cantidad": 2}], "total": 1465, "Hora": "09/06/2025 20:44:50"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 3}, {"nombre": "Shadygrove", "precio": 130, "cantidad": 3}, {"nombre": "Bulldog", "precio": 135, "cantidad": 3}, {"nombre": "Suzietaylor", "precio": 135, "cantidad": 3}], "total": 1410, "Hora": "09/06/2025 22:05:38"}
+{"items": [{"nombre": "Alamosplash", "precio": 130, "cantidad": 1}], "total": 130, "Hora": "09/06/2025 22:13:11"}
+{"items": [{"nombre": "Agavejulep", "precio": 140, "cantidad": 2}, {"nombre": "Changuirongo", "precio": 130, "cantidad": 2}, {"nombre": "Margarita", "precio": 140, "cantidad": 2}], "total": 820, "Hora": "09/06/2025 22:13:20"}
+{"items": [{"nombre": "Mojito", "precio": 130, "cantidad": 1}], "total": 130, "Hora": "09/06/2025 22:44:04"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 2}], "total": 140, "Hora": "09/06/2025 23:40:32"}
+{"items": [{"nombre": "Johncollins", "precio": 155, "cantidad": 1}], "total": 155, "Hora": "10/06/2025 23:10:43"}
+{"items": [{"nombre": "Shadygrove", "precio": 130, "cantidad": 2}, {"nombre": "Bulldog", "precio": 135, "cantidad": 2}], "total": 530, "Hora": "10/06/2025 23:11:09"}
+{"items": [{"nombre": "Daiquiri", "precio": 140, "cantidad": 1}, {"nombre": "Tequilasunrise", "precio": 155, "cantidad": 1}, {"nombre": "Margarita", "precio": 140, "cantidad": 1}, {"nombre": "Changuirongo", "precio": 130, "cantidad": 1}, {"nombre": "Agavejulep", "precio": 140, "cantidad": 1}, {"nombre": "Alamosplash", "precio": 130, "cantidad": 1}], "total": 835, "Hora": "10/06/2025 23:11:30"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "10/06/2025 23:43:09"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 2}, {"nombre": "Mojito", "precio": 130, "cantidad": 3}, {"nombre": "Johncollins", "precio": 155, "cantidad": 3}, {"nombre": "Shadygrove", "precio": 130, "cantidad": 3}, {"nombre": "Bulldog", "precio": 135, "cantidad": 1}, {"nombre": "Bostoncooler", "precio": 130, "cantidad": 1}, {"nombre": "Suzietaylor", "precio": 135, "cantidad": 1}], "total": 1785, "Hora": "10/06/2025 23:57:49"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}, {"nombre": "Limonada", "precio": 70, "cantidad": 1}, {"nombre": "Mojito", "precio": 130, "cantidad": 1}, {"nombre": "Johncollins", "precio": 155, "cantidad": 1}, {"nombre": "Shadygrove", "precio": 130, "cantidad": 1}, {"nombre": "Bulldog", "precio": 135, "cantidad": 1}, {"nombre": "Bostoncooler", "precio": 130, "cantidad": 1}, {"nombre": "Suzietaylor", "precio": 135, "cantidad": 1}], "total": 955, "Hora": "11/06/2025 00:20:01"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}, {"nombre": "Johncollins", "precio": 155, "cantidad": 1}, {"nombre": "Mojito", "precio": 130, "cantidad": 1}, {"nombre": "Shadygrove", "precio": 130, "cantidad": 1}, {"nombre": "Bulldog", "precio": 135, "cantidad": 1}, {"nombre": "Suzietaylor", "precio": 135, "cantidad": 1}, {"nombre": "Bostoncooler", "precio": 130, "cantidad": 1}], "total": 885, "Hora": "11/06/2025 00:20:57"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 3}], "total": 210, "Hora": "11/06/2025 18:22:56"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "11/06/2025 18:25:41"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 2}], "total": 140, "Hora": "11/06/2025 18:27:58"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "11/06/2025 18:28:20"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 1}, {"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 140, "Hora": "11/06/2025 18:30:02"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "11/06/2025 18:32:13"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "11/06/2025 18:32:24"}
+{"items": [{"nombre": "Bulldog", "precio": 135, "cantidad": 1}], "total": 135, "Hora": "12/06/2025 00:49:39"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "12/06/2025 00:56:34"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 2}, {"nombre": "Limonada", "precio": 70, "cantidad": 2}, {"nombre": "Mojito", "precio": 130, "cantidad": 2}, {"nombre": "Bulldog", "precio": 135, "cantidad": 2}, {"nombre": "Bostoncooler", "precio": 130, "cantidad": 2}], "total": 1070, "Hora": "13/06/2025 18:41:41"}
+{"items": [{"nombre": "Bostoncooler", "precio": 130, "cantidad": 1}, {"nombre": "Suzietaylor", "precio": 135, "cantidad": 1}, {"nombre": "Shadygrove", "precio": 130, "cantidad": 1}, {"nombre": "Bulldog", "precio": 135, "cantidad": 1}, {"nombre": "Agavejulep", "precio": 140, "cantidad": 1}, {"nombre": "Alamosplash", "precio": 130, "cantidad": 1}], "total": 800, "Hora": "13/06/2025 18:42:11"}
+{"items": [{"nombre": "Tequilasunrise", "precio": 155, "cantidad": 1}], "total": 155, "Hora": "13/06/2025 19:26:24"}
+{"items": [{"nombre": "Bulldog", "precio": 135, "cantidad": 1}], "total": 135, "Hora": "13/06/2025 19:26:48"}
+{"items": [{"nombre": "Mojito", "precio": 130, "cantidad": 1}, {"nombre": "Naranjada", "precio": 70, "cantidad": 1}, {"nombre": "Shadygrove", "precio": 130, "cantidad": 1}, {"nombre": "Bulldog", "precio": 135, "cantidad": 1}, {"nombre": "Agavejulep", "precio": 140, "cantidad": 1}, {"nombre": "Changuirongo", "precio": 130, "cantidad": 1}], "total": 735, "Hora": "13/06/2025 19:38:10"}
+{"items": [{"nombre": "Mojito", "precio": 130, "cantidad": 1}, {"nombre": "Daiquiri", "precio": 140, "cantidad": 1}], "total": 270, "Hora": "13/06/2025 23:02:40"}
+{"items": [{"nombre": "Changuirongo", "precio": 130, "cantidad": 2}, {"nombre": "Margarita", "precio": 140, "cantidad": 2}, {"nombre": "Daiquiri", "precio": 140, "cantidad": 2}], "total": 820, "Hora": "13/06/2025 23:08:17"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 2}], "total": 140, "Hora": "14/06/2025 00:25:30"}
+{"items": [{"nombre": "Suzietaylor", "precio": 135, "cantidad": 1}, {"nombre": "Alamosplash", "precio": 130, "cantidad": 1}, {"nombre": "Bostoncooler", "precio": 130, "cantidad": 1}, {"nombre": "Agavejulep", "precio": 140, "cantidad": 1}, {"nombre": "Changuirongo", "precio": 130, "cantidad": 1}], "total": 665, "Hora": "14/06/2025 00:25:43"}
+{"items": [{"nombre": "Shadygrove", "precio": 130, "cantidad": 2}, {"nombre": "Bulldog", "precio": 135, "cantidad": 2}], "total": 530, "Hora": "14/06/2025 00:26:12"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 1}, {"nombre": "Daiquiri", "precio": 140, "cantidad": 1}, {"nombre": "Tequilasunrise", "precio": 155, "cantidad": 1}, {"nombre": "Changuirongo", "precio": 130, "cantidad": 2}, {"nombre": "Margarita", "precio": 140, "cantidad": 1}, {"nombre": "Agavejulep", "precio": 140, "cantidad": 1}, {"nombre": "Alamosplash", "precio": 130, "cantidad": 1}], "total": 1035, "Hora": "14/06/2025 00:39:26"}
+{"items": [{"nombre": "Suzietaylor", "precio": 135, "cantidad": 2}, {"nombre": "Bulldog", "precio": 135, "cantidad": 2}, {"nombre": "Shadygrove", "precio": 130, "cantidad": 2}, {"nombre": "Alamosplash", "precio": 130, "cantidad": 2}], "total": 1060, "Hora": "14/06/2025 00:40:56"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "14/06/2025 00:46:37"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 2}], "total": 140, "Hora": "14/06/2025 01:27:03"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 3}], "total": 210, "Hora": "14/06/2025 01:27:45"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 2}], "total": 140, "Hora": "14/06/2025 01:28:21"}
+{"items": [{"nombre": "Mojito", "precio": 130, "cantidad": 2}], "total": 260, "Hora": "14/06/2025 16:49:19"}
+{"items": [{"nombre": "Johncollins", "precio": 155, "cantidad": 1}, {"nombre": "Shadygrove", "precio": 130, "cantidad": 1}], "total": 285, "Hora": "14/06/2025 17:20:39"}
+{"items": [{"nombre": "Daiquiri", "precio": 140, "cantidad": 1}, {"nombre": "Tequilasunrise", "precio": 155, "cantidad": 1}, {"nombre": "Margarita", "precio": 140, "cantidad": 1}, {"nombre": "Changuirongo", "precio": 130, "cantidad": 1}, {"nombre": "Agavejulep", "precio": 140, "cantidad": 1}, {"nombre": "Alamosplash", "precio": 130, "cantidad": 1}, {"nombre": "Suzietaylor", "precio": 135, "cantidad": 1}], "total": 970, "Hora": "14/06/2025 17:21:21"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 2}], "total": 140, "Hora": "14/06/2025 17:22:39"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}, {"nombre": "Limonada", "precio": 70, "cantidad": 1}, {"nombre": "Mojito", "precio": 130, "cantidad": 2}, {"nombre": "Johncollins", "precio": 155, "cantidad": 2}], "total": 710, "Hora": "14/06/2025 21:06:00"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}, {"nombre": "Limonada", "precio": 70, "cantidad": 2}, {"nombre": "Johncollins", "precio": 155, "cantidad": 3}, {"nombre": "Shadygrove", "precio": 130, "cantidad": 3}, {"nombre": "Bostoncooler", "precio": 130, "cantidad": 1}, {"nombre": "Alamosplash", "precio": 130, "cantidad": 2}], "total": 1455, "Hora": "14/06/2025 21:07:05"}
+{"items": [{"nombre": "Daiquiri", "precio": 140, "cantidad": 8}], "total": 1120, "Hora": "14/06/2025 21:27:32"}
+{"items": [{"nombre": "Johncollins", "precio": 155, "cantidad": 1}], "total": 155, "Hora": "15/06/2025 15:38:53"}
+{"items": [{"nombre": "Suzietaylor", "precio": 135, "cantidad": 1}, {"nombre": "Bostoncooler", "precio": 130, "cantidad": 1}, {"nombre": "Bulldog", "precio": 135, "cantidad": 1}, {"nombre": "Shadygrove", "precio": 130, "cantidad": 1}, {"nombre": "Changuirongo", "precio": 130, "cantidad": 1}, {"nombre": "Agavejulep", "precio": 140, "cantidad": 1}], "total": 800, "Hora": "17/06/2025 11:00:24"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}, {"nombre": "Limonada", "precio": 70, "cantidad": 1}, {"nombre": "Mojito", "precio": 130, "cantidad": 1}, {"nombre": "Daiquiri", "precio": 140, "cantidad": 1}], "total": 410, "Hora": "17/06/2025 11:02:59"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "22/06/2025 20:28:45"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 2}, {"nombre": "Limonada", "precio": 70, "cantidad": 2}, {"nombre": "Daiquiri", "precio": 140, "cantidad": 1}, {"nombre": "Tequilasunrise", "precio": 155, "cantidad": 1}, {"nombre": "Changuirongo", "precio": 130, "cantidad": 1}, {"nombre": "Margarita", "precio": 140, "cantidad": 1}, {"nombre": "Agavejulep", "precio": 140, "cantidad": 1}, {"nombre": "Alamosplash", "precio": 130, "cantidad": 1}, {"nombre": "Johncollins", "precio": 155, "cantidad": 1}, {"nombre": "Bulldog", "precio": 135, "cantidad": 1}, {"nombre": "Shadygrove", "precio": 130, "cantidad": 1}], "total": 1535, "Hora": "22/06/2025 20:46:17"}
+{"items": [{"nombre": "Mojito", "precio": 130, "cantidad": 1}], "total": 130, "Hora": "26/06/2025 11:14:21"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}, {"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 140, "Hora": "26/06/2025 11:24:22"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 2}, {"nombre": "Limonada", "precio": 70, "cantidad": 2}], "total": 280, "Hora": "26/06/2025 11:26:05"}
+{"items": [{"nombre": "Daiquiri", "precio": 140, "cantidad": 1}, {"nombre": "Tequilasunrise", "precio": 155, "cantidad": 1}, {"nombre": "Johncollins", "precio": 155, "cantidad": 1}], "total": 450, "Hora": "26/06/2025 11:36:23"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 2}, {"nombre": "Daiquiri", "precio": 140, "cantidad": 2}], "total": 420, "Hora": "26/06/2025 11:40:20"}
+{"items": [{"nombre": "Bostoncooler", "precio": 130, "cantidad": 1}, {"nombre": "Agavejulep", "precio": 140, "cantidad": 1}], "total": 270, "Hora": "26/06/2025 11:40:20"}
+{"items": [{"nombre": "Shadygrove", "precio": 130, "cantidad": 1}, {"nombre": "Alamosplash", "precio": 130, "cantidad": 1}, {"nombre": "Agavejulep", "precio": 140, "cantidad": 1}], "total": 400, "Hora": "26/06/2025 11:40:20"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}, {"nombre": "Limonada", "precio": 70, "cantidad": 1}, {"nombre": "Mojito", "precio": 130, "cantidad": 1}], "total": 270, "Hora": "26/06/2025 15:55:34"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}, {"nombre": "Limonada", "precio": 70, "cantidad": 1}, {"nombre": "Mojito", "precio": 130, "cantidad": 1}], "total": 270, "Hora": "26/06/2025 16:10:33"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}, {"nombre": "Limonada", "precio": 70, "cantidad": 1}, {"nombre": "Mojito", "precio": 130, "cantidad": 1}], "total": 270, "Hora": "26/06/2025 16:21:27"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}, {"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 140, "Hora": "26/06/2025 16:30:47"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}, {"nombre": "Limonada", "precio": 70, "cantidad": 1}, {"nombre": "Mojito", "precio": 130, "cantidad": 1}, {"nombre": "Johncollins", "precio": 155, "cantidad": 1}], "total": 425, "Hora": "26/06/2025 16:35:16"}
+{"items": [{"nombre": "Margarita", "precio": 140, "cantidad": 1}, {"nombre": "Tequilasunrise", "precio": 155, "cantidad": 1}, {"nombre": "Daiquiri", "precio": 140, "cantidad": 1}], "total": 435, "Hora": "26/06/2025 16:38:49"}
+{"items": [{"nombre": "Tequilasunrise", "precio": 155, "cantidad": 1}, {"nombre": "Daiquiri", "precio": 140, "cantidad": 1}], "total": 295, "Hora": "26/06/2025 16:43:31"}
+{"items": [{"nombre": "Alamosplash", "precio": 130, "cantidad": 1}, {"nombre": "Agavejulep", "precio": 140, "cantidad": 1}, {"nombre": "Changuirongo", "precio": 130, "cantidad": 1}], "total": 400, "Hora": "26/06/2025 16:53:56"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}, {"nombre": "Tequilasunrise", "precio": 155, "cantidad": 1}, {"nombre": "Daiquiri", "precio": 140, "cantidad": 1}], "total": 365, "Hora": "26/06/2025 17:14:22"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}, {"nombre": "Limonada", "precio": 70, "cantidad": 1}, {"nombre": "Mojito", "precio": 130, "cantidad": 1}], "total": 270, "Hora": "26/06/2025 17:16:42"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}, {"nombre": "Limonada", "precio": 70, "cantidad": 1}, {"nombre": "Mojito", "precio": 130, "cantidad": 1}], "total": 270, "Hora": "26/06/2025 17:25:38"}
+{"items": [{"nombre": "Margarita", "precio": 140, "cantidad": 1}, {"nombre": "Tequilasunrise", "precio": 155, "cantidad": 1}, {"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 365, "Hora": "26/06/2025 17:29:50"}
+{"items": [{"nombre": "Changuirongo", "precio": 130, "cantidad": 1}, {"nombre": "Margarita", "precio": 140, "cantidad": 1}], "total": 270, "Hora": "26/06/2025 17:44:11"}
+{"items": [{"nombre": "Changuirongo", "precio": 130, "cantidad": 1}], "total": 130, "Hora": "26/06/2025 17:46:12"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "26/06/2025 17:48:19"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "26/06/2025 17:50:21"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "26/06/2025 17:54:13"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}, {"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 140, "Hora": "26/06/2025 17:58:34"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "26/06/2025 17:59:25"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "26/06/2025 18:02:55"}
+{"items": [{"nombre": "Mojito", "precio": 130, "cantidad": 1}], "total": 130, "Hora": "26/06/2025 18:07:13"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "26/06/2025 18:23:32"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "26/06/2025 18:35:31"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "26/06/2025 18:42:47"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "26/06/2025 18:45:50"}
+{"items": [{"nombre": "Johncollins", "precio": 155, "cantidad": 1}], "total": 155, "Hora": "26/06/2025 18:48:22"}
+{"items": [{"nombre": "Tequilasunrise", "precio": 155, "cantidad": 1}], "total": 155, "Hora": "26/06/2025 19:09:28"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "26/06/2025 19:16:09"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "26/06/2025 19:17:36"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "26/06/2025 19:19:16"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "26/06/2025 19:23:03"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "26/06/2025 19:25:23"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "26/06/2025 19:29:28"}
+{"items": [{"nombre": "Bulldog", "precio": 135, "cantidad": 1}, {"nombre": "Shadygrove", "precio": 130, "cantidad": 1}], "total": 265, "Hora": "27/06/2025 11:31:53"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}, {"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 140, "Hora": "27/06/2025 11:48:24"}
+{"items": [{"nombre": "Tequilasunrise", "precio": 155, "cantidad": 1}], "total": 155, "Hora": "27/06/2025 11:54:45"}
+{"items": [{"nombre": "Bulldog", "precio": 135, "cantidad": 1}], "total": 135, "Hora": "27/06/2025 12:03:52"}
+{"items": [{"nombre": "Bulldog", "precio": 135, "cantidad": 1}], "total": 135, "Hora": "27/06/2025 12:05:25"}
+{"items": [{"nombre": "Bulldog", "precio": 135, "cantidad": 1}], "total": 135, "Hora": "27/06/2025 12:06:32"}
+{"items": [{"nombre": "Tequilasunrise", "precio": 155, "cantidad": 1}, {"nombre": "Daiquiri", "precio": 140, "cantidad": 1}], "total": 295, "Hora": "27/06/2025 12:15:15"}
+{"items": [{"nombre": "Bulldog", "precio": 135, "cantidad": 1}], "total": 135, "Hora": "27/06/2025 12:18:31"}
+{"items": [{"nombre": "Bulldog", "precio": 135, "cantidad": 1}], "total": 135, "Hora": "27/06/2025 12:20:46"}
+{"items": [{"nombre": "Bulldog", "precio": 135, "cantidad": 1}], "total": 135, "Hora": "27/06/2025 12:21:29"}
+{"items": [{"nombre": "Bulldog", "precio": 135, "cantidad": 2}], "total": 270, "Hora": "27/06/2025 12:23:25"}
+{"items": [{"nombre": "Bulldog", "precio": 135, "cantidad": 1}, {"nombre": "Margarita", "precio": 140, "cantidad": 1}], "total": 275, "Hora": "27/06/2025 14:59:33"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}, {"nombre": "Changuirongo", "precio": 130, "cantidad": 1}], "total": 200, "Hora": "27/06/2025 15:00:54"}
+{"items": [{"nombre": "Bulldog", "precio": 135, "cantidad": 1}, {"nombre": "Changuirongo", "precio": 130, "cantidad": 1}], "total": 265, "Hora": "27/06/2025 15:03:28"}
+{"items": [{"nombre": "Bulldog", "precio": 135, "cantidad": 1}, {"nombre": "Shadygrove", "precio": 130, "cantidad": 1}], "total": 265, "Hora": "27/06/2025 15:03:58"}
+{"items": [{"nombre": "Bulldog", "precio": 135, "cantidad": 2}, {"nombre": "Bostoncooler", "precio": 130, "cantidad": 1}], "total": 400, "Hora": "27/06/2025 15:05:40"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}, {"nombre": "Limonada", "precio": 70, "cantidad": 1}, {"nombre": "Mojito", "precio": 130, "cantidad": 1}], "total": 270, "Hora": "27/06/2025 16:13:55"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}, {"nombre": "Limonada", "precio": 70, "cantidad": 1}, {"nombre": "Mojito", "precio": 130, "cantidad": 1}], "total": 270, "Hora": "27/06/2025 17:30:24"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}, {"nombre": "Limonada", "precio": 70, "cantidad": 1}, {"nombre": "Mojito", "precio": 130, "cantidad": 1}], "total": 270, "Hora": "27/06/2025 17:32:23"}
+{"items": [{"nombre": "Bostoncooler", "precio": 130, "cantidad": 2}, {"nombre": "Suzietaylor", "precio": 135, "cantidad": 1}], "total": 395, "Hora": "27/06/2025 18:52:20"}
+{"items": [{"nombre": "Agavejulep", "precio": 140, "cantidad": 1}, {"nombre": "Changuirongo", "precio": 130, "cantidad": 1}, {"nombre": "Alamosplash", "precio": 130, "cantidad": 2}], "total": 530, "Hora": "27/06/2025 19:08:24"}
+{"items": [{"nombre": "Bulldog", "precio": 135, "cantidad": 1}, {"nombre": "Margarita", "precio": 140, "cantidad": 1}], "total": 275, "Hora": "27/06/2025 19:24:25"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}, {"nombre": "Johncollins", "precio": 155, "cantidad": 1}], "total": 225, "Hora": "27/06/2025 19:27:48"}
+{"items": [{"nombre": "Changuirongo", "precio": 130, "cantidad": 2}, {"nombre": "Daiquiri", "precio": 140, "cantidad": 1}], "total": 400, "Hora": "27/06/2025 19:29:30"}
+{"items": [{"nombre": "Suzietaylor", "precio": 135, "cantidad": 1}], "total": 135, "Hora": "30/06/2025 11:58:01"}
+{"items": [{"nombre": "Johncollins", "precio": 155, "cantidad": 2}], "total": 310, "Hora": "30/06/2025 12:05:57"}
+{"items": [{"nombre": "Johncollins", "precio": 155, "cantidad": 1}], "total": 155, "Hora": "30/06/2025 12:11:29"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "30/06/2025 12:29:03", "mesa": "N/A"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 70, "mesa": "2", "Hora": "30/06/2025 12:29:03"}
+{"items": [{"nombre": "Shadygrove", "precio": 130, "cantidad": 1}], "total": 130, "mesa": "2", "Hora": "30/06/2025 12:29:45"}
+{"items": [{"nombre": "Shadygrove", "precio": 130, "cantidad": 1}], "total": 130, "Hora": "30/06/2025 12:29:45", "mesa": "N/A"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 70, "mesa": "2", "Hora": "30/06/2025 12:32:31"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "30/06/2025 12:32:31", "mesa": "N/A"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 70, "mesa": "2", "Hora": "30/06/2025 12:33:40"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "30/06/2025 12:33:40", "mesa": "N/A"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 70, "mesa": "2", "Hora": "30/06/2025 12:37:13"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 70, "Hora": "30/06/2025 12:37:13", "mesa": "N/A"}
+{"items": [{"nombre": "Shadygrove", "precio": 130, "cantidad": 1}], "total": 130, "mesa": "2", "Hora": "30/06/2025 12:38:57"}
+{"items": [{"nombre": "Shadygrove", "precio": 130, "cantidad": 1}], "total": 130, "Hora": "30/06/2025 12:38:57", "mesa": null}
+{"items": [{"nombre": "Mojito", "precio": 130, "cantidad": 1}], "total": 130, "Hora": "30/06/2025 12:40:39", "mesa": null}
+{"items": [{"nombre": "Mojito", "precio": 130, "cantidad": 1}], "total": 130, "mesa": "2", "Hora": "30/06/2025 12:40:39"}
+{"items": [{"nombre": "Johncollins", "precio": 155, "cantidad": 1}], "total": 155, "Hora": "30/06/2025 12:43:40", "mesa": null}
+{"items": [{"nombre": "Johncollins", "precio": 155, "cantidad": 1}], "total": 155, "Hora": "30/06/2025 12:45:57", "mesa": "N/A"}
+{"items": [{"nombre": "Johncollins", "precio": 155, "cantidad": 1}], "total": 155, "mesa": "1", "Hora": "30/06/2025 12:49:04"}
+{"items": [{"nombre": "Johncollins", "precio": 155, "cantidad": 1}], "total": 155, "Hora": "30/06/2025 12:49:04", "mesa": "N/A"}
+{"items": [{"nombre": "Johncollins", "precio": 155, "cantidad": 1}], "total": 155, "Hora": "30/06/2025 12:50:34", "mesa": "N/A"}
+{"items": [{"nombre": "Johncollins", "precio": 155, "cantidad": 1}], "total": 155, "mesa": "1", "Hora": "30/06/2025 12:50:34"}
+{"items": [{"nombre": "Johncollins", "precio": 155, "cantidad": 1}], "total": 155, "Hora": "30/06/2025 12:52:03"}
+{"items": [{"nombre": "Mojito", "precio": 130, "cantidad": 1}], "total": 130, "mesa": "2", "Hora": "30/06/2025 13:00:52"}
+{"items": [{"nombre": "Mojito", "precio": 130, "cantidad": 1}], "total": 130, "mesa": "2", "Hora": "30/06/2025 13:08:22"}
+{"items": [{"nombre": "Mojito", "precio": 130, "cantidad": 1}], "total": 130, "mesa": "2", "Hora": "30/06/2025 13:29:09"}
+{"items": [{"nombre": "Mojito", "precio": 130, "cantidad": 1}], "total": 130, "mesa": "2", "Hora": "30/06/2025 13:30:33"}
+{"items": [{"nombre": "Mojito", "precio": 130, "cantidad": 1}, {"nombre": "Johncollins", "precio": 155, "cantidad": 1}], "total": 285, "mesa": "4", "Hora": "30/06/2025 13:37:12"}
+{"items": [{"nombre": "Johncollins", "precio": 155, "cantidad": 1}, {"nombre": "Shadygrove", "precio": 130, "cantidad": 1}], "total": 285, "mesa": "4", "Hora": "30/06/2025 13:42:08"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}, {"nombre": "Johncollins", "precio": 155, "cantidad": 1}], "total": 225, "mesa": "4", "Hora": "30/06/2025 13:52:22"}
+{"items": [{"nombre": "Johncollins", "precio": 155, "cantidad": 1}], "total": 155, "mesa": "2", "Hora": "30/06/2025 14:37:23"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 1}, {"nombre": "Bulldog", "precio": 135, "cantidad": 1}], "total": 205, "mesa": "2", "Hora": "30/06/2025 14:43:28"}
+{"items": [{"nombre": "Mojito", "precio": 130, "cantidad": 1}, {"nombre": "Margarita", "precio": 140, "cantidad": 1}], "total": 270, "mesa": "2", "Hora": "30/06/2025 14:47:41"}
+{"items": [{"nombre": "Shadygrove", "precio": 130, "cantidad": 1}, {"nombre": "Changuirongo", "precio": 130, "cantidad": 1}], "total": 260, "mesa": "2", "Hora": "30/06/2025 14:48:43"}
+{"items": [{"nombre": "Daiquiri", "precio": 140, "cantidad": 1}, {"nombre": "Agavejulep", "precio": 140, "cantidad": 1}, {"nombre": "Margarita", "precio": 140, "cantidad": 1}], "total": 420, "mesa": "2", "Hora": "30/06/2025 14:50:45"}
+{"items": [{"nombre": "Bostoncooler", "precio": 130, "cantidad": 1}, {"nombre": "Suzietaylor", "precio": 135, "cantidad": 1}, {"nombre": "Alamosplash", "precio": 130, "cantidad": 1}, {"nombre": "Tequilasunrise", "precio": 155, "cantidad": 1}], "total": 550, "mesa": "2", "Hora": "30/06/2025 14:58:51"}
+{"items": [{"nombre": "Tequilasunrise", "precio": 155, "cantidad": 1}, {"nombre": "Limonada", "precio": 70, "cantidad": 1}, {"nombre": "Suzietaylor", "precio": 135, "cantidad": 1}], "total": 360, "mesa": "2", "Hora": "30/06/2025 15:11:39"}
+{"items": [{"nombre": "Suzietaylor", "precio": 135, "cantidad": 1}, {"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 205, "mesa": "2", "Hora": "30/06/2025 15:14:17"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 70, "mesa": "2", "Hora": "30/06/2025 15:16:51"}
+{"items": [{"nombre": "Citruspunch", "precio": 110, "cantidad": 1}], "total": 110, "mesa": "2", "Hora": "01/07/2025 09:37:02"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 70, "mesa": "3", "Hora": "01/07/2025 11:22:05"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 70, "mesa": null, "Hora": "01/07/2025 11:24:04"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 70, "mesa": null, "Hora": "01/07/2025 11:25:10"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 70, "mesa": "2", "Hora": "01/07/2025 11:30:29"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 70, "mesa": "2", "Hora": "01/07/2025 11:31:43"}
+{"items": [{"nombre": "Shadygrove", "precio": 130, "cantidad": 1}, {"nombre": "Alamosplash", "precio": 130, "cantidad": 1}], "total": 260, "mesa": "2", "Hora": "01/07/2025 11:34:48"}
+{"items": [{"nombre": "Citruspunch", "precio": 110, "cantidad": 1}], "total": 110, "mesa": "1", "Hora": "01/07/2025 11:58:40"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 70, "mesa": "3", "Hora": "01/07/2025 13:07:34"}
+{"items": [{"nombre": "Limonada", "precio": 70, "cantidad": 1}], "total": 70, "mesa": "3", "Hora": "01/07/2025 13:22:39"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 70, "mesa": "3", "Hora": "01/07/2025 13:51:25"}
+{"items": [{"nombre": "Shadygrove", "precio": 130, "cantidad": 6}], "total": 780, "mesa": "3", "Hora": "01/07/2025 13:51:59"}
+{"items": [{"nombre": "Citruspunch", "precio": 110, "cantidad": 1}], "total": 110, "mesa": "3", "Hora": "01/07/2025 13:53:16"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 70, "mesa": "3", "Hora": "01/07/2025 13:53:18"}
+{"items": [{"nombre": "Citruspunch", "precio": 110, "cantidad": 1}], "total": 110, "mesa": "3", "Hora": "01/07/2025 13:57:48"}
+{"items": [{"nombre": "Citruspunch", "precio": 110, "cantidad": 1}], "total": 110, "mesa": "3", "Hora": "01/07/2025 13:59:13"}
+{"items": [{"nombre": "Citruspunch", "precio": 110, "cantidad": 1}], "total": 110, "mesa": "1", "Hora": "01/07/2025 14:01:20"}
+{"items": [{"nombre": "Citruspunch", "precio": 110, "cantidad": 1}], "total": 110, "mesa": null, "Hora": "01/07/2025 14:03:01"}
+{"items": [{"nombre": "Mojito", "precio": 130, "cantidad": 1}], "total": 130, "mesa": null, "Hora": "01/07/2025 14:07:45"}
+{"items": [{"nombre": "Naranjada", "precio": 70, "cantidad": 1}], "total": 70, "mesa": "2", "Hora": "01/07/2025 14:33:53"}
+{"items": [{"nombre": "Mojito", "precio": 130, "cantidad": 1}], "total": 130, "mesa": null, "Hora": "01/07/2025 15:00:37"}
+{"items": [{"nombre": "Tequilasunrise", "precio": 155, "cantidad": 1}], "total": 155, "mesa": "3", "Hora": "01/07/2025 15:02:34"}
+{"items": [{"nombre": "Johncollins", "precio": 155, "cantidad": 1}], "total": 155, "mesa": "1", "Hora": "01/07/2025 15:04:32"}
+{"items": [{"nombre": "Shadygrove", "precio": 130, "cantidad": 1}], "total": 130, "mesa": null, "Hora": "01/07/2025 15:17:31"}
+{"items": [{"nombre": "Margarita", "precio": 140, "cantidad": 1}], "total": 140, "mesa": "3", "Hora": "01/07/2025 15:19:25"}

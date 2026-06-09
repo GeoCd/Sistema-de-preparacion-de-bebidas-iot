@@ -1,0 +1,27 @@
+/* Footer global  */
+footer.footer {
+    background-color: var(--gris-oscuro, #343a40); /* Usa variable o fallback */
+    color: var(--blanco, #f8f9fa);
+    padding: 1.5rem 3rem;
+    font-family: var(--fuente-principal, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif);
+    font-size: 1rem;
+    text-align: center;
+    border-top: 3px solid var(--amarillo, #ffc107); /* color de acento */
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
+}
+
+footer.footer a {
+    color: var(--amarillo, #ffc107);
+    text-decoration: none;
+    font-weight: 600;
+    transition: text-decoration 0.2s ease-in-out;
+}
+
+footer.footer a:hover {
+    text-decoration: underline;
+}
+
+footer.footer p {
+    margin: 0;
+    line-height: 1.5;
+}

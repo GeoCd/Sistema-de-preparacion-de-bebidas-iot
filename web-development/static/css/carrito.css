@@ -1,0 +1,329 @@
+/* Botón del carrito */
+.cart__button {
+  position: relative;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1100;
+}
+
+.cart__button img {
+  width: 44px;
+  height: 44px;
+  transition: transform 0.2s ease;
+}
+
+.cart__button:hover img {
+  transform: scale(1.1);
+}
+
+/* Badge de cantidad */
+#cart-count {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background: #b03a2e; /* vino oscuro */
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0 2px white, 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Sidebar del carrito */
+.cart__sidebar {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 300px;
+  max-height: 100vh;
+  overflow-y: auto;
+  background: var(--blanco);
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  transition: right 0.3s ease-in-out;
+  z-index: 1000;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+  overflow: hidden;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.cart__sidebar.open {
+  right: 0;
+}
+
+/* Encabezado */
+.cart__header {
+  background: #8d6e63; /* café oscuro elegante */
+  color: #fff;
+  padding: 1.4rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cart__header h2 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.close-cart {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  filter: invert(1);
+  transition: transform 0.2s ease;
+}
+
+.close-cart:hover {
+  transform: rotate(90deg);
+}
+
+/* Lista de productos */
+.cart__items {
+  flex: 1;
+  padding: 1.5rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+/* Item individual */
+.cart-item {
+  background: white;
+  border-radius: 12px;
+  padding: 1.2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.cart-item-name {
+    font-weight: 700;
+  font-size: 1.3rem;
+  color: #2e2e2e; /* más contrastado */
+  margin-bottom: 0.3rem;
+  font-family: 'Segoe UI Semibold', sans-serif;
+}
+
+.cart-item-price {
+  font-size: 1rem;
+  color: #6b6b6b;
+  margin-bottom: 0.7rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Controles de cantidad */
+.cart__controls {
+  font-size: 1.2rem;
+  font-weight: 800; /* más negrita */
+  min-width: 28px;
+  color: #111;
+  font-family: 'Segoe UI Semibold', sans-serif;
+}
+
+.cart__controls button {
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 8px;
+  padding: 6px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  transition: background 0.2s ease;
+}
+
+.cart__controls button:hover {
+  background-color: #ccc;
+}
+
+.cart__controls span {
+  font-size: 1.2rem;
+  font-weight: 700;
+  min-width: 28px;
+  color: #000;
+}
+
+/* Pie del carrito */
+.cart__footer {
+  padding: 1.4rem;
+  background: #3e2c24;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cart__footer p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #f0e7e1;
+}
+
+.cart__footer strong {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffe9d6;
+}
+
+/* Botón Finalizar Pedido */
+#finalize-order {
+  margin-top: 0.5rem;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  background: #8d6e63;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#finalize-order:hover {
+  background: #795548;
+}
+
+.notification-container {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 2000;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  pointer-events: none;
+}
+
+.toast {
+  background-color: #323232;
+  color: white;
+  padding: 1rem 1.4rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: slideIn 0.4s ease forwards, fadeOut 0.5s ease 4s forwards;
+}
+
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+
+
+
+
+/* Responsive */
+@media (max-width: 400px) {
+  .cart__sidebar {
+    width: 70%;
+    right: -100%; /* asegúrate de mantener esto igual que fuera del media query */
+    border-radius: 16px 0 0 16px;
+    margin-right: 5%;
+  }
+
+  .cart__sidebar.open {
+    right: 0;
+  }
+}
+
+/* Elegant Minimalist Black & Silver Toast Notifications */
+
+.notification-container {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 2000;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  pointer-events: none; /* disable pointer events for container */
+  max-width: 320px;
+}
+
+.toast {
+  pointer-events: auto; /* allow interaction on toast */
+  background: linear-gradient(145deg, #1a1a1a, #2c2c2c);
+  /* subtle silver gloss, mimicking metallic style */
+  border: 1.5px solid #c0c0c0;
+  box-shadow:
+    0 4px 15px rgba(192, 192, 192, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  color: #d1d1d1;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  padding: 1rem 1.6rem;
+  border-radius: 16px;
+  font-size: 1rem;
+  opacity: 0;
+  transform: translateY(-25px) scale(0.95);
+  animation: slideInScale 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards,
+             fadeOut 0.5s ease 4.8s forwards;
+  user-select: text;
+  transition: box-shadow 0.3s ease;
+}
+
+.toast:hover, .toast:focus {
+  box-shadow:
+    0 6px 24px rgba(192, 192, 192, 0.7),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  outline: none;
+}
+
+@keyframes slideInScale {
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    transform: translateY(-25px) scale(0.95);
+  }
+}
+
+/* Accessibility: prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .toast {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
